@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Big Theater</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		
+		<div class="wrapper">
+			<button class="menu__btn-open">
+				<span></span>
+			</button>
+			<header class="header">
+				<div class="container header__container">
+					<nav class="menu">
+						<a class="menu__link" href="#">Главная</a>
+						<a class="menu__link" href="#">О театре</a>
+						<a class="menu__link" href="#">Наши постановки</a>
+						<a class="menu__link" href="#">Партнеры театра</a>
+						<a class="menu__link" href="#">Контакты</a>
+					</nav>
+					<a class="header__phone" href="tel: +74951234567">+7 495 123-45-67</a>
+				  
+					<div class="fixed-panel">
+						<div class="fixed-panel__text">контактная информация</div>
+						<div class="social">
+						  <div class="social__link">
+							<a  href="#">
+								<svg  height="26" width="26">
+									<image class="social__icon insta" href="img/icons/instagram_icon.svg" />
+								</svg>
+							</a>
+						  </div>
+						  <div  class="social__link">
+							<a href="#">
+								<svg  height="26" width="26">
+									<image class="social__icon fb" href="/img/icons/fb_icon.svg" >
+								</svg>
+							</a>
+						  </div>
+						  <div  class="social__link">
+							<a href="#">
+								<svg  height="26" width="26">
+									<image class="social__icon vk" href="/img/icons/vk_icon.svg" />
+								</svg>
+								
+							</a>
+						  </div>
+						  <div  class="social__link" >
+							<a href="#">
+								<svg  height="26" width="26">
+									<image class="social__icon utube" href="/img/icons/utube_icon.svg" />
+								</svg>
+								
+							</a>
+						 </div>
+						</div>
+					</div>
+				  
+					<button class="header__btn-close"></button>
+					
+				</div>
+			</header>
+
+			<div class="main">
+				<div class="container main__container">
+					<div class="main__inner">
+						<a class="main__phone" href="tel: +74951234567">+7 495 123-45-67</a>
+						<div class="main__content">
+							<h1 class="main__title">Большой театр</h1>
+							<p class="main__text">Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.</p>
+							<button class="button main__button">афиша</button>
+						</div>
+						<div id="main-carousel" class="main-slider swiper-container">
+							<div class="main-slider__inner swiper-wrapper">
+								<div class="main-slider__item swiper-slide">
+									<div class="main-slider__img">
+										<img class="main-slider__img-primary" src="/img/sliders/header_poster.png" alt="">
+										<img class="main-slider__img-secondary" src="/img/sliders/shadow.png" alt="">
+									</div>
+								</div>
+								<div class="main-slider__item swiper-slide">
+									<div class="main-slider__img">
+										<img class="main-slider__img-primary" src="/img/sliders/header_poster.png" alt="">
+										<img class="main-slider__img-secondary" src="/img/sliders/shadow.png" alt="">
+									</div>
+								</div>
+								<div class="main-slider__item swiper-slide">
+									<div class="main-slider__img">
+										<img class="main-slider__img-primary" src="/img/sliders/header_poster.png" alt="">
+										<img class="main-slider__img-secondary" src="/img/sliders/shadow.png" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="main-slider__control">
+								<a class="main-slider__prev swiper-button-prev">
+									<span></span>
+									Пред
+								</a>
+								<a class="main-slider__next swiper-button-next">
+									След
+									<span></span>
+								</a>
+							</div>
+						</div>
+					</div>			
+				</div>
+			</div>
+
+			<section class="about">
+				<div class="container">
+					<h2 class="title about__title"><span>о</span> театре</h2>
+					<div class="about__row">
+						<div class="about__info">
+							<h3 class="about__subtitle">Самый лучший театр СПБ</h3>
+							<p class="about__text">
+								Как свидетельствуют архивные документы, первое каменное здание Большого театра начали возводить в 1775 году по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично наблюдать за ходом работ, Екатерина II поручила немецкому театральному декоратору и архитектору Людвигу Филиппу Тишбейну создать новый проект театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его состоялось в 1783 году, хотя, основываясь на других свидетельствах, годом открытия можно считать 1784 год.
+							</p>
+						</div>
+						<div class="numbers-about about__numbers">
+							<h3 class="about__subtitle">немного о цифрах</h3>
+							<div class="numbers-about__items">
+								<div class="numbers-about__item">
+									<div class="numbers-about__img"><img src="/img/icons/armchair_icon.svg" alt=""></div>
+									<div class="numbers-about__text"><span>1600</span> посадочных мест</div>
+								</div>
+								<div class="numbers-about__item">
+									<div class="numbers-about__img"><img src="/img/icons/theater_icon.svg" alt=""></div>
+									<div class="numbers-about__text"><span>350</span> лет в истории</div>
+								</div>
+							</div>
+						</div>
+						<div class="about__img">
+							<img src="/img/bg/theater_photo.png" alt="">
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<section class="projects">
+				<h2 class="title projects__title"><span>наши</span> постановки</h2>
+				<div class="projects-slider swiper-container">
+					<div class="projects-slider__inner swiper-wrapper">
+						<div class="projects-slider__item swiper-slide">
+							<img class="projects-slider__img" src="/img/sliders/slider_4.png" alt="">
+							<div class="projects-slider__date">сентябрь 2020</div>
+							<div class="projects-slider__title">ОСКАР 2020</div>
+							<button class="projects-slider__btn">
+								<img src="/img/sliders/search_icon.svg" alt="">
+							</button>
+						</div>
+						<div class="projects-slider__item swiper-slide">
+							<img class="projects-slider__img" src="/img/sliders/slider_1.png" alt="">
+							<div class="projects-slider__date">сентябрь 2020</div>
+							<div class="projects-slider__title">ОСКАР 2020</div>
+							<button class="projects-slider__btn">
+								<img src="/img/sliders/search_icon.svg" alt="">
+							</button>
+						</div>
+						<div class="projects-slider__item swiper-slide">
+							<img class="projects-slider__img" src="/img/sliders/slider_2.png" alt="">
+							<div class="projects-slider__date">июль 2020</div>
+							<div class="projects-slider__title">золотой грамофон</div>
+							<button class="projects-slider__btn">
+								<img src="/img/sliders/search_icon.svg" alt="">
+							</button>
+						</div>
+						<div class="projects-slider__item swiper-slide">
+							<img class="projects-slider__img" src="/img/sliders/slider_3.png" alt="">
+							<div class="projects-slider__date">май 2020</div>
+							<div class="projects-slider__title">щелкунчик</div>
+							<button class="projects-slider__btn">
+								<img src="/img/sliders/search_icon.svg" alt="">
+							</button>
+						</div>
+						<div class="projects-slider__item swiper-slide">
+							<img class="projects-slider__img" src="/img/sliders/slider_4.png" alt="">
+							<div class="projects-slider__date">сентябрь 2020</div>
+							<div class="projects-slider__title">ОСКАР 2020</div>
+							<button class="projects-slider__btn">
+								<img src="/img/sliders/search_icon.svg" alt="">
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="rating">
+				<div class="rating__container">
+					<div class="rating__inner">
+						<div class="rating__years">
+							<p>2018</p>
+							<p>2019</p>
+							<p>2020</p>
+						</div>
+						<div class="rating__content">
+							<div class="rating__stars">
+								<div class="rating__img"><img src="/img/icons/star_icon.svg" alt=""></div>
+								<div class="rating__img"><img src="/img/icons/star_icon.svg" alt=""></div>
+								<div class="rating__img"><img src="/img/icons/star_icon.svg" alt=""></div>
+								<div class="rating__img"><img src="/img/icons/star_icon.svg" alt=""></div>
+								<div class="rating__img"><img src="/img/icons/star_icon.svg" alt=""></div>
+							</div>
+							<p class="rating__text">Лучший театр
+по мнению театральных критиков Парижа</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="partners">
+				<div class="container partners__container">
+					<h2 class="title partners__title"><span>партнеры</span> театра</h2>
+					<div class=" first_block partners-slider  swiper-container">
+						<div class="partners-slider__inner swiper-wrapper">
+							<div class="partners-slider__item swiper-slide">
+								<div class="partners-slider__img">
+									<img src="/img/icons/gasprom_logo.svg" alt="">
+								</div>
+							</div>
+							<div class="partners-slider__item swiper-slide">
+								<div class="partners-slider__img">
+									<img src="/img/icons/gasprom_logo.svg" alt="">
+								</div>
+							</div>
+							<div class="partners-slider__item swiper-slide">
+								<div class="partners-slider__img">
+									<img src="/img/icons/gasprom_logo.svg" alt="">
+								</div>
+							</div>	
+							<div class="partners-slider__item swiper-slide">
+								<div class="partners-slider__img">
+									<img src="/img/icons/gasprom_logo.svg" alt="">
+								</div>
+							</div>
+						</div>
+					</div> 
+						<div class="second_block  partners-slider swiper-container">
+						  <div class="partners-slider__inner swiper-wrapper">
+							<div class="partners-slider__item swiper-slide">
+								<div class="partners-slider__img">
+									<img src="/img/icons/gasprom_logo.svg" alt="">
+								</div>
+							</div>
+							<div class="partners-slider__item swiper-slide">
+								<div class="partners-slider__img">
+									<img src="/img/icons/gasprom_logo.svg" alt="">
+								</div>
+							</div>
+							<div class="partners-slider__item swiper-slide">
+								<div class="partners-slider__img">
+									<img src="/img/icons/gasprom_logo.svg" alt="">
+								</div>
+							</div>
+							<div class="partners-slider__item swiper-slide">
+								<div class="partners-slider__img">
+									<img src="/img/icons/gasprom_logo.svg" alt="">
+								</div>
+							</div>
+						  </div>
+						</div>
+				</div>
+			</section>		
+
+			<section class="contacts">
+				<div class="container">
+					<h2 class="title contacts__title"><span>стать</span> меценатом</h2>
+					<div class="contacts__inner">
+						<div class="contacts__info">
+							<p>+7 (812) 123-45-55</p>
+							<p>+7 (812) 123-45-66</p>
+							<p>info@theater.ru</p>
+							<p>г. санкт-петербург, невский 140</p>
+						</div>
+						<div class="form contacts__form">
+							<form action="#" class="form">
+								<div class="form__content">
+									<div class="form__column">
+										<input type="text" class="form__input form__input_m" name="name" placeholder="Имя">
+										<input type="tel" class="form__input" name="phone" placeholder="Телефон">
+									</div>
+									<div class="form__column">
+										<input type="text" class="form__input form__input_m" name="company" placeholder="Компания">
+										<input type="tel" class="form__input" name="email" placeholder="E-mail">
+									</div>
+									<div class="form__column">
+										<textarea name="message" class="form__input" placeholder="Сообщение"></textarea>
+									</div>
+								</div>
+								<div class="form__bottom">
+									<p class="form__text">* Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.</p>
+									<a href="#" class="button form__button" role="button">отправить</a>
+								
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__inner">
+						<p class="footer__text">(с) Все права защищены. Большой театр. 2020</p>
+						<p class="footer__text">Разработано d-e-n.ru</p>
+					</div>
+				</div>
+			</footer>	
+		</div>
+
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
