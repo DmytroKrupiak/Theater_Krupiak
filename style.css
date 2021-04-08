@@ -424,7 +424,7 @@ svg:hover {
 .main {
   width: 100%;
   height: 100vh;
-  background: url("img/bg/header_bg.png") center/cover no-repeat;
+  background: url("./img/bg/header_bg.png") center/cover no-repeat;
 }
 .main__container {
   position: relative;
@@ -624,14 +624,14 @@ svg:hover {
   height: 15px;
   width: 40px;
   margin-right: 25px;
-  background-image: url("img/icons/prev.svg");
+  background-image: url("./img/icons/prev.svg");
 }
 .main-slider__next span {
   display: inline-block;
   height: 15px;
   width: 40px;
   margin-left: 25px;
-  background-image: url("img/icons/next.svg");
+  background-image: url("./img/icons/next.svg");
 }
 @media (max-width: 1439px) {
   .main-slider {
@@ -917,7 +917,7 @@ svg:hover {
 }
 .rating__inner {
   padding: 126px 110px 126px 190px;
-  background: url("img/bg/theater_bg.png") center center/cover no-repeat;
+  background: url("./img/bg/theater_bg.png") center center/cover no-repeat;
   display: flex;
   justify-content: space-between;
   align-items: center;
